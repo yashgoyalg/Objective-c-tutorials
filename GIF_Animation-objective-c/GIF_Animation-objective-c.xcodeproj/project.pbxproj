@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C643606D2A0B5692000DAD7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C643606C2A0B5692000DAD7F /* AppDelegate.m */; };
+		C64360702A0B5692000DAD7F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C643606F2A0B5692000DAD7F /* SceneDelegate.m */; };
+		C64360732A0B5692000DAD7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64360722A0B5692000DAD7F /* ViewController.m */; };
+		C64360762A0B5692000DAD7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64360742A0B5692000DAD7F /* Main.storyboard */; };
+		C64360792A0B5692000DAD7F /* GIF_Animation_objective_c.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C64360772A0B5692000DAD7F /* GIF_Animation_objective_c.xcdatamodeld */; };
+		C643607B2A0B5693000DAD7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C643607A2A0B5693000DAD7F /* Assets.xcassets */; };
+		C643607E2A0B5693000DAD7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C643607C2A0B5693000DAD7F /* LaunchScreen.storyboard */; };
+		C64360812A0B5693000DAD7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C64360802A0B5693000DAD7F /* main.m */; };
+		C643609A2A0B5800000DAD7F /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = C64360872A0B5800000DAD7F /* 4.gif */; };
+		C643609B2A0B5800000DAD7F /* 6.gif in Resources */ = {isa = PBXBuildFile; fileRef = C64360882A0B5800000DAD7F /* 6.gif */; };
+		C643609C2A0B5800000DAD7F /* 11.gif in Resources */ = {isa = PBXBuildFile; fileRef = C64360892A0B5800000DAD7F /* 11.gif */; };
+		C643609D2A0B5800000DAD7F /* 10.gif in Resources */ = {isa = PBXBuildFile; fileRef = C643608A2A0B5800000DAD7F /* 10.gif */; };
+		C643609E2A0B5800000DAD7F /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = C643608B2A0B5800000DAD7F /* 3.gif */; };
+		C643609F2A0B5800000DAD7F /* 8.gif in Resources */ = {isa = PBXBuildFile; fileRef = C643608C2A0B5800000DAD7F /* 8.gif */; };
+		C64360A02A0B5800000DAD7F /* 13.gif in Resources */ = {isa = PBXBuildFile; fileRef = C643608D2A0B5800000DAD7F /* 13.gif */; };
+		C64360A12A0B5800000DAD7F /* 14.gif in Resources */ = {isa = PBXBuildFile; fileRef = C643608E2A0B5800000DAD7F /* 14.gif */; };
+		C64360A22A0B5800000DAD7F /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = C643608F2A0B5800000DAD7F /* 1.gif */; };
+		C64360A32A0B5800000DAD7F /* animasi_pemainbola3d_juggling.gif in Resources */ = {isa = PBXBuildFile; fileRef = C64360902A0B5800000DAD7F /* animasi_pemainbola3d_juggling.gif */; };
+		C64360A42A0B5800000DAD7F /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = C64360912A0B5800000DAD7F /* 2.gif */; };
+		C64360A52A0B5800000DAD7F /* 17.gif in Resources */ = {isa = PBXBuildFile; fileRef = C64360922A0B5800000DAD7F /* 17.gif */; };
+		C64360A62A0B5800000DAD7F /* 15.gif in Resources */ = {isa = PBXBuildFile; fileRef = C64360932A0B5800000DAD7F /* 15.gif */; };
+		C64360A72A0B5800000DAD7F /* 12.gif in Resources */ = {isa = PBXBuildFile; fileRef = C64360942A0B5800000DAD7F /* 12.gif */; };
+		C64360A82A0B5800000DAD7F /* 16.gif in Resources */ = {isa = PBXBuildFile; fileRef = C64360952A0B5800000DAD7F /* 16.gif */; };
+		C64360A92A0B5800000DAD7F /* 7.gif in Resources */ = {isa = PBXBuildFile; fileRef = C64360962A0B5800000DAD7F /* 7.gif */; };
+		C64360AA2A0B5800000DAD7F /* 18.gif in Resources */ = {isa = PBXBuildFile; fileRef = C64360972A0B5800000DAD7F /* 18.gif */; };
+		C64360AB2A0B5800000DAD7F /* 9.gif in Resources */ = {isa = PBXBuildFile; fileRef = C64360982A0B5800000DAD7F /* 9.gif */; };
+		C64360AC2A0B5800000DAD7F /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = C64360992A0B5800000DAD7F /* 5.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C64360682A0B5692000DAD7F /* GIF_Animation-objective-c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIF_Animation-objective-c.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C643606B2A0B5692000DAD7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C643606C2A0B5692000DAD7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C643606E2A0B5692000DAD7F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C643606F2A0B5692000DAD7F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C64360712A0B5692000DAD7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C64360722A0B5692000DAD7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C64360752A0B5692000DAD7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C64360782A0B5692000DAD7F /* GIF_Animation_objective_c.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GIF_Animation_objective_c.xcdatamodel; sourceTree = "<group>"; };
+		C643607A2A0B5693000DAD7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C643607D2A0B5693000DAD7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C643607F2A0B5693000DAD7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C64360802A0B5693000DAD7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C64360872A0B5800000DAD7F /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 4.gif; path = ../../../../Downloads/animation/4.gif; sourceTree = "<group>"; };
+		C64360882A0B5800000DAD7F /* 6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 6.gif; path = ../../../../Downloads/animation/6.gif; sourceTree = "<group>"; };
+		C64360892A0B5800000DAD7F /* 11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 11.gif; path = ../../../../Downloads/animation/11.gif; sourceTree = "<group>"; };
+		C643608A2A0B5800000DAD7F /* 10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 10.gif; path = ../../../../Downloads/animation/10.gif; sourceTree = "<group>"; };
+		C643608B2A0B5800000DAD7F /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 3.gif; path = ../../../../Downloads/animation/3.gif; sourceTree = "<group>"; };
+		C643608C2A0B5800000DAD7F /* 8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 8.gif; path = ../../../../Downloads/animation/8.gif; sourceTree = "<group>"; };
+		C643608D2A0B5800000DAD7F /* 13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 13.gif; path = ../../../../Downloads/animation/13.gif; sourceTree = "<group>"; };
+		C643608E2A0B5800000DAD7F /* 14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 14.gif; path = ../../../../Downloads/animation/14.gif; sourceTree = "<group>"; };
+		C643608F2A0B5800000DAD7F /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 1.gif; path = ../../../../Downloads/animation/1.gif; sourceTree = "<group>"; };
+		C64360902A0B5800000DAD7F /* animasi_pemainbola3d_juggling.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = animasi_pemainbola3d_juggling.gif; path = ../../../../Downloads/animation/animasi_pemainbola3d_juggling.gif; sourceTree = "<group>"; };
+		C64360912A0B5800000DAD7F /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 2.gif; path = ../../../../Downloads/animation/2.gif; sourceTree = "<group>"; };
+		C64360922A0B5800000DAD7F /* 17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 17.gif; path = ../../../../Downloads/animation/17.gif; sourceTree = "<group>"; };
+		C64360932A0B5800000DAD7F /* 15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 15.gif; path = ../../../../Downloads/animation/15.gif; sourceTree = "<group>"; };
+		C64360942A0B5800000DAD7F /* 12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 12.gif; path = ../../../../Downloads/animation/12.gif; sourceTree = "<group>"; };
+		C64360952A0B5800000DAD7F /* 16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 16.gif; path = ../../../../Downloads/animation/16.gif; sourceTree = "<group>"; };
+		C64360962A0B5800000DAD7F /* 7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 7.gif; path = ../../../../Downloads/animation/7.gif; sourceTree = "<group>"; };
+		C64360972A0B5800000DAD7F /* 18.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 18.gif; path = ../../../../Downloads/animation/18.gif; sourceTree = "<group>"; };
+		C64360982A0B5800000DAD7F /* 9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 9.gif; path = ../../../../Downloads/animation/9.gif; sourceTree = "<group>"; };
+		C64360992A0B5800000DAD7F /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 5.gif; path = ../../../../Downloads/animation/5.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C64360652A0B5692000DAD7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C643605F2A0B5692000DAD7F = {
+			isa = PBXGroup;
+			children = (
+				C643606A2A0B5692000DAD7F /* GIF_Animation-objective-c */,
+				C64360692A0B5692000DAD7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C64360692A0B5692000DAD7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C64360682A0B5692000DAD7F /* GIF_Animation-objective-c.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C643606A2A0B5692000DAD7F /* GIF_Animation-objective-c */ = {
+			isa = PBXGroup;
+			children = (
+				C643608F2A0B5800000DAD7F /* 1.gif */,
+				C64360912A0B5800000DAD7F /* 2.gif */,
+				C643608B2A0B5800000DAD7F /* 3.gif */,
+				C64360872A0B5800000DAD7F /* 4.gif */,
+				C64360992A0B5800000DAD7F /* 5.gif */,
+				C64360882A0B5800000DAD7F /* 6.gif */,
+				C64360962A0B5800000DAD7F /* 7.gif */,
+				C643608C2A0B5800000DAD7F /* 8.gif */,
+				C64360982A0B5800000DAD7F /* 9.gif */,
+				C643608A2A0B5800000DAD7F /* 10.gif */,
+				C64360892A0B5800000DAD7F /* 11.gif */,
+				C64360942A0B5800000DAD7F /* 12.gif */,
+				C643608D2A0B5800000DAD7F /* 13.gif */,
+				C643608E2A0B5800000DAD7F /* 14.gif */,
+				C64360932A0B5800000DAD7F /* 15.gif */,
+				C64360952A0B5800000DAD7F /* 16.gif */,
+				C64360922A0B5800000DAD7F /* 17.gif */,
+				C64360972A0B5800000DAD7F /* 18.gif */,
+				C64360902A0B5800000DAD7F /* animasi_pemainbola3d_juggling.gif */,
+				C643606B2A0B5692000DAD7F /* AppDelegate.h */,
+				C643606C2A0B5692000DAD7F /* AppDelegate.m */,
+				C643606E2A0B5692000DAD7F /* SceneDelegate.h */,
+				C643606F2A0B5692000DAD7F /* SceneDelegate.m */,
+				C64360712A0B5692000DAD7F /* ViewController.h */,
+				C64360722A0B5692000DAD7F /* ViewController.m */,
+				C64360742A0B5692000DAD7F /* Main.storyboard */,
+				C643607A2A0B5693000DAD7F /* Assets.xcassets */,
+				C643607C2A0B5693000DAD7F /* LaunchScreen.storyboard */,
+				C643607F2A0B5693000DAD7F /* Info.plist */,
+				C64360802A0B5693000DAD7F /* main.m */,
+				C64360772A0B5692000DAD7F /* GIF_Animation_objective_c.xcdatamodeld */,
+			);
+			path = "GIF_Animation-objective-c";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C64360672A0B5692000DAD7F /* GIF_Animation-objective-c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C64360842A0B5693000DAD7F /* Build configuration list for PBXNativeTarget "GIF_Animation-objective-c" */;
+			buildPhases = (
+				C64360642A0B5692000DAD7F /* Sources */,
+				C64360652A0B5692000DAD7F /* Frameworks */,
+				C64360662A0B5692000DAD7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GIF_Animation-objective-c";
+			productName = "GIF_Animation-objective-c";
+			productReference = C64360682A0B5692000DAD7F /* GIF_Animation-objective-c.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C64360602A0B5692000DAD7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C64360672A0B5692000DAD7F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C64360632A0B5692000DAD7F /* Build configuration list for PBXProject "GIF_Animation-objective-c" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C643605F2A0B5692000DAD7F;
+			productRefGroup = C64360692A0B5692000DAD7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C64360672A0B5692000DAD7F /* GIF_Animation-objective-c */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C64360662A0B5692000DAD7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64360AC2A0B5800000DAD7F /* 5.gif in Resources */,
+				C64360AB2A0B5800000DAD7F /* 9.gif in Resources */,
+				C64360A62A0B5800000DAD7F /* 15.gif in Resources */,
+				C64360A82A0B5800000DAD7F /* 16.gif in Resources */,
+				C64360A52A0B5800000DAD7F /* 17.gif in Resources */,
+				C64360A02A0B5800000DAD7F /* 13.gif in Resources */,
+				C64360A92A0B5800000DAD7F /* 7.gif in Resources */,
+				C643609C2A0B5800000DAD7F /* 11.gif in Resources */,
+				C64360A12A0B5800000DAD7F /* 14.gif in Resources */,
+				C643607E2A0B5693000DAD7F /* LaunchScreen.storyboard in Resources */,
+				C643609A2A0B5800000DAD7F /* 4.gif in Resources */,
+				C643609F2A0B5800000DAD7F /* 8.gif in Resources */,
+				C64360A22A0B5800000DAD7F /* 1.gif in Resources */,
+				C64360A42A0B5800000DAD7F /* 2.gif in Resources */,
+				C643609D2A0B5800000DAD7F /* 10.gif in Resources */,
+				C643609E2A0B5800000DAD7F /* 3.gif in Resources */,
+				C64360A32A0B5800000DAD7F /* animasi_pemainbola3d_juggling.gif in Resources */,
+				C64360AA2A0B5800000DAD7F /* 18.gif in Resources */,
+				C643607B2A0B5693000DAD7F /* Assets.xcassets in Resources */,
+				C643609B2A0B5800000DAD7F /* 6.gif in Resources */,
+				C64360A72A0B5800000DAD7F /* 12.gif in Resources */,
+				C64360762A0B5692000DAD7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C64360642A0B5692000DAD7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64360812A0B5693000DAD7F /* main.m in Sources */,
+				C64360732A0B5692000DAD7F /* ViewController.m in Sources */,
+				C643606D2A0B5692000DAD7F /* AppDelegate.m in Sources */,
+				C64360702A0B5692000DAD7F /* SceneDelegate.m in Sources */,
+				C64360792A0B5692000DAD7F /* GIF_Animation_objective_c.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C64360742A0B5692000DAD7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C64360752A0B5692000DAD7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C643607C2A0B5693000DAD7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C643607D2A0B5693000DAD7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C64360822A0B5693000DAD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C64360832A0B5693000DAD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C64360852A0B5693000DAD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NPEPL56TCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GIF_Animation-objective-c/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ssntpl.in.GIF-Animation-objective-c";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C64360862A0B5693000DAD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NPEPL56TCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GIF_Animation-objective-c/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ssntpl.in.GIF-Animation-objective-c";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C64360632A0B5692000DAD7F /* Build configuration list for PBXProject "GIF_Animation-objective-c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64360822A0B5693000DAD7F /* Debug */,
+				C64360832A0B5693000DAD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C64360842A0B5693000DAD7F /* Build configuration list for PBXNativeTarget "GIF_Animation-objective-c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64360852A0B5693000DAD7F /* Debug */,
+				C64360862A0B5693000DAD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C64360772A0B5692000DAD7F /* GIF_Animation_objective_c.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C64360782A0B5692000DAD7F /* GIF_Animation_objective_c.xcdatamodel */,
+			);
+			currentVersion = C64360782A0B5692000DAD7F /* GIF_Animation_objective_c.xcdatamodel */;
+			path = GIF_Animation_objective_c.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C64360602A0B5692000DAD7F /* Project object */;
+}
